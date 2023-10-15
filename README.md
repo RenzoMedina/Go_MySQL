@@ -1,6 +1,6 @@
 # Conection MySQL
 ## Migration
-For application function of migrate, we have implement the next script
+We to use function of migrate, we have implement the next script
 ``` go
     myPlayers := storage.NewPlayersMySQL(storage.Pool())
 	myPlayersService := players.NewService(myPlayers)
